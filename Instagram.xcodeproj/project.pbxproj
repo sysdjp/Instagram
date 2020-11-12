@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52B6D152555021C00D4F059 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B6D142555021C00D4F059 /* LoginViewController.swift */; };
+		B52B6D172555023900D4F059 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B6D162555023900D4F059 /* HomeViewController.swift */; };
+		B52B6D192555027E00D4F059 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B6D182555027E00D4F059 /* ImageSelectViewController.swift */; };
+		B52B6D1B2555028F00D4F059 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B6D1A2555028F00D4F059 /* PostViewController.swift */; };
+		B52B6D1D2555029F00D4F059 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B6D1C2555029F00D4F059 /* SettingViewController.swift */; };
 		B5545E0B253590B000122997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5545E0A253590B000122997 /* AppDelegate.swift */; };
 		B5545E0D253590B000122997 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5545E0C253590B000122997 /* SceneDelegate.swift */; };
 		B5545E0F253590B000122997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5545E0E253590B000122997 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B52B6D142555021C00D4F059 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B52B6D162555023900D4F059 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B52B6D182555027E00D4F059 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		B52B6D1A2555028F00D4F059 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B52B6D1C2555029F00D4F059 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		B5545E07253590B000122997 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5545E0A253590B000122997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5545E0C253590B000122997 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				B5545E0C253590B000122997 /* SceneDelegate.swift */,
 				B5545E0E253590B000122997 /* ViewController.swift */,
 				B5545E10253590B000122997 /* Main.storyboard */,
+				B52B6D142555021C00D4F059 /* LoginViewController.swift */,
+				B52B6D162555023900D4F059 /* HomeViewController.swift */,
+				B52B6D182555027E00D4F059 /* ImageSelectViewController.swift */,
+				B52B6D1A2555028F00D4F059 /* PostViewController.swift */,
+				B52B6D1C2555029F00D4F059 /* SettingViewController.swift */,
 				B5545E13253590B100122997 /* Assets.xcassets */,
 				B5545E15253590B100122997 /* LaunchScreen.storyboard */,
 				B5545E18253590B100122997 /* Info.plist */,
@@ -138,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52B6D192555027E00D4F059 /* ImageSelectViewController.swift in Sources */,
+				B52B6D172555023900D4F059 /* HomeViewController.swift in Sources */,
+				B52B6D1B2555028F00D4F059 /* PostViewController.swift in Sources */,
+				B52B6D1D2555029F00D4F059 /* SettingViewController.swift in Sources */,
+				B52B6D152555021C00D4F059 /* LoginViewController.swift in Sources */,
 				B5545E0F253590B000122997 /* ViewController.swift in Sources */,
 				B5545E0B253590B000122997 /* AppDelegate.swift in Sources */,
 				B5545E0D253590B000122997 /* SceneDelegate.swift in Sources */,
