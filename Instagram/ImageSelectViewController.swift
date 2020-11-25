@@ -2,7 +2,7 @@
 //  ImageSelectViewController.swift
 //  Instagram
 //
-//  Created by ヤハタ・マサカズ on 2020/11/23.
+//  Created by ヤハタ・マサカズ on 2020/11/25.
 //  Copyright © 2020 masakazu.yahata. All rights reserved.
 //
 
