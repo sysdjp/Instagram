@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B537DFEF257635E70061DDA8 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537DFEE257635E70061DDA8 /* Const.swift */; };
 		B5545E0B253590B000122997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5545E0A253590B000122997 /* AppDelegate.swift */; };
 		B5545E0D253590B000122997 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5545E0C253590B000122997 /* SceneDelegate.swift */; };
 		B5545E12253590B000122997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5545E10253590B000122997 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B537DFEE257635E70061DDA8 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		B5545E07253590B000122997 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5545E0A253590B000122997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5545E0C253590B000122997 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				B56F3BB2256E3894006FCA60 /* HomeViewController.swift */,
+				B537DFEE257635E70061DDA8 /* Const.swift */,
 				B56F3BB4256E38C4006FCA60 /* ImageSelectViewController.swift */,
 				B56F3BB6256E38DE006FCA60 /* PostViewController.swift */,
 				B56F3BB8256E38F6006FCA60 /* SettingViewController.swift */,
@@ -155,6 +158,7 @@
 				B5545E0B253590B000122997 /* AppDelegate.swift in Sources */,
 				B5545E0D253590B000122997 /* SceneDelegate.swift in Sources */,
 				B56F3BB5256E38C4006FCA60 /* ImageSelectViewController.swift in Sources */,
+				B537DFEF257635E70061DDA8 /* Const.swift in Sources */,
 				B56F3BB9256E38F6006FCA60 /* SettingViewController.swift in Sources */,
 				B56F3BB3256E3894006FCA60 /* HomeViewController.swift in Sources */,
 			);
