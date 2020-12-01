@@ -89,7 +89,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yPS-uI-fON">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="I1s-G0-ngf" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="I1s-G0-ngf" customClass="TabBarController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kBd-mv-gs8">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
