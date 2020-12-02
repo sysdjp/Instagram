@@ -26,6 +26,8 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         // currentUserがnilならログインしていない
         if Auth.auth().currentUser == nil {
             // ログインしていないときの処理
+            let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
+            self.present(loginViewController!, animated: true, completion: nil)
         }
     }
     
