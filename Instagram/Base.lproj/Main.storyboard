@@ -45,6 +45,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="qSc-Ut-tHZ"/>
                                 </constraints>
                                 <state key="normal" title="ログイン" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleLoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NWA-gX-DgD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FG4-Jd-Cvs">
                                 <rect key="frame" x="57" y="306" width="300" height="40"/>
@@ -52,6 +55,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="dgj-8S-jwS"/>
                                 </constraints>
                                 <state key="normal" title="アカウント作成" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleCreateAccountButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcf-W8-i4k"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -71,6 +77,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="Yjb-mr-Qbf"/>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="7ci-Pj-PnY" id="1OR-TA-XUV"/>
+                        <outlet property="mailAddressTextField" destination="yq1-Yf-9Gv" id="Yxe-3i-seT"/>
+                        <outlet property="passwordTextField" destination="Oja-G9-kkF" id="crf-2B-yZH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
