@@ -78,7 +78,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="Yjb-mr-Qbf"/>
                     <connections>
-                        <outlet property="displayNameTextField" destination="7ci-Pj-PnY" id="1OR-TA-XUV"/>
+                        <outlet property="displayNameTextField" destination="7ci-Pj-PnY" id="CbA-nR-Aa8"/>
                         <outlet property="mailAddressTextField" destination="yq1-Yf-9Gv" id="Yxe-3i-seT"/>
                         <outlet property="passwordTextField" destination="Oja-G9-kkF" id="crf-2B-yZH"/>
                     </connections>
