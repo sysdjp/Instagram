@@ -142,24 +142,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zRX-Em-uYn">
-                                <rect key="frame" x="159" y="125" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zRX-Em-uYn">
+                                <rect key="frame" x="57" y="124" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Un2-6S-TWe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sao-pl-pWa">
-                                <rect key="frame" x="161" y="231" width="92" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="表示名を変更"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sao-pl-pWa">
+                                <rect key="frame" x="57" y="168" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="60F-3X-mai"/>
+                                </constraints>
+                                <state key="normal" title="表示名を変更" backgroundImage="btn">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleChangeButton:" destination="igd-AZ-1fk" eventType="touchUpInside" id="QIi-qV-a0r"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bic-RU-HVZ">
-                                <rect key="frame" x="169" y="317" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ログアウト"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bic-RU-HVZ">
+                                <rect key="frame" x="57" y="218" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="mw6-wY-6XM"/>
+                                </constraints>
+                                <state key="normal" title="ログアウト" backgroundImage="btn">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleLogoutButton:" destination="igd-AZ-1fk" eventType="touchUpInside" id="7Y5-YD-6oI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Sao-pl-pWa" firstAttribute="top" secondItem="zRX-Em-uYn" secondAttribute="bottom" constant="10" id="8jZ-yF-8hI"/>
+                            <constraint firstItem="zRX-Em-uYn" firstAttribute="centerX" secondItem="pjA-FP-etp" secondAttribute="centerX" id="9cn-T1-dGN"/>
+                            <constraint firstItem="zRX-Em-uYn" firstAttribute="top" secondItem="qyA-ok-z5P" secondAttribute="top" constant="80" id="Bl6-3S-O0S"/>
+                            <constraint firstItem="bic-RU-HVZ" firstAttribute="top" secondItem="Sao-pl-pWa" secondAttribute="bottom" constant="10" id="MMf-e0-lLg"/>
+                            <constraint firstItem="Sao-pl-pWa" firstAttribute="centerX" secondItem="pjA-FP-etp" secondAttribute="centerX" id="SaL-vV-3j7"/>
+                            <constraint firstItem="bic-RU-HVZ" firstAttribute="centerX" secondItem="pjA-FP-etp" secondAttribute="centerX" id="p2d-nb-TqO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qyA-ok-z5P"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="設定" image="setting" id="HrI-3k-hxi"/>
