@@ -95,30 +95,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvY-LX-Vpo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvY-LX-Vpo">
                                 <rect key="frame" x="57" y="124" width="300" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="ライブラリ" backgroundImage="btn">
                                     <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleLibraryButton:" destination="vLG-OX-bNi" eventType="touchUpInside" id="X0v-in-5ll"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HK-HS-ORO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HK-HS-ORO">
                                 <rect key="frame" x="57" y="174" width="300" height="40"/>
                                 <state key="normal" title="カメラ" backgroundImage="btn">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleCameraButton:" destination="vLG-OX-bNi" eventType="touchUpInside" id="2Vj-XX-fxv"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YG-UU-Qcw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YG-UU-Qcw">
                                 <rect key="frame" x="57" y="224" width="300" height="40"/>
                                 <state key="normal" title="キャンセル" backgroundImage="btn">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleCancelButton:" destination="vLG-OX-bNi" eventType="touchUpInside" id="4ut-dp-Xpx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="bvY-LX-Vpo" firstAttribute="centerX" secondItem="fBG-fd-O6Y" secondAttribute="centerX" id="53r-gG-Yi4"/>
+                            <constraint firstItem="7YG-UU-Qcw" firstAttribute="centerX" secondItem="fBG-fd-O6Y" secondAttribute="centerX" id="S1U-5T-E8j"/>
                             <constraint firstItem="7HK-HS-ORO" firstAttribute="top" secondItem="bvY-LX-Vpo" secondAttribute="bottom" constant="10" id="aRM-WU-Z0X"/>
                             <constraint firstItem="7YG-UU-Qcw" firstAttribute="top" secondItem="7HK-HS-ORO" secondAttribute="bottom" constant="10" id="dRP-u1-zEs"/>
                             <constraint firstItem="7HK-HS-ORO" firstAttribute="leading" secondItem="bvY-LX-Vpo" secondAttribute="leading" id="fmc-WB-7R5"/>
+                            <constraint firstItem="7HK-HS-ORO" firstAttribute="centerX" secondItem="fBG-fd-O6Y" secondAttribute="centerX" id="iuF-Oj-QW0"/>
                             <constraint firstItem="7YG-UU-Qcw" firstAttribute="leading" secondItem="bvY-LX-Vpo" secondAttribute="leading" id="k31-CG-5EO"/>
                             <constraint firstItem="bvY-LX-Vpo" firstAttribute="top" secondItem="3KC-jA-zDk" secondAttribute="top" constant="80" id="mE4-xt-eXT"/>
                         </constraints>
