@@ -10,7 +10,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Login" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Instagram" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,7 +78,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="Yjb-mr-Qbf"/>
                     <connections>
-                        <outlet property="displayNameTextField" destination="7ci-Pj-PnY" id="CbA-nR-Aa8"/>
+                        <outlet property="displayNameTextField" destination="7ci-Pj-PnY" id="5dF-1Q-cEe"/>
                         <outlet property="mailAddressTextField" destination="yq1-Yf-9Gv" id="Yxe-3i-seT"/>
                         <outlet property="passwordTextField" destination="Oja-G9-kkF" id="crf-2B-yZH"/>
                     </connections>
