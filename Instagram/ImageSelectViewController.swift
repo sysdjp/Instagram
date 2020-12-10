@@ -6,6 +6,7 @@
 //  Copyright © 2020 masakazu.yahata. All rights reserved.
 //
 
+import CLImageEditor
 import UIKit
 
 class ImageSelectViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
